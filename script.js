@@ -1,15 +1,6 @@
-function inserirTituloNaDiv() {
-    const meuLocal = document.getElementById ('nomeDaFabrica')
-    const meulocal2 = document.getElementById ('nomeDaFabrica2')
+async function minhaFuncao() {
+    const response = await fetch('https://api.randomuser.me/?results=10')
+    const data = await response.json()
+    
+    }
 
-    const titulo = document.createElement ('h1')
-    titulo.innerText = 'consegui'
-    meuLocal.appendChild(titulo)
-
-    // 1 - criar local para criar o elemento
-    // 2 - pegar onde vamos criar o elemento    
-    // 3 - criar o meu elemento
-    // 4 - adicionar o elemento criado 
-
-
-}
